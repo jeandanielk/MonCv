@@ -1,0 +1,66 @@
+header{
+    padding-top: 2%;
+    height: 270px;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #333;
+}
+@media (max-width: 425px) {
+    header{
+        height: 410px;
+    }
+    .des{
+        padding-top: 5%;
+    }
+    .comp{
+        padding-top: 8%;
+    }
+    img{
+        height: 80%;
+        padding-bottom: 19%;
+    };
+}
+
+.photo{
+    padding-left: 1%;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+}
+.post{
+    color: orange;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.des{
+    margin-left: 1%;
+}
+.right{
+    margin-right: -10%;
+    margin-left: 7%;
+}
+img{
+    border-radius: 15%;
+    height: 150%;
+}
+
+hr.light{
+    border-top: 2px solid #13c3ba;
+    width: 90%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+.atouts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5%;
+}
+.div{
+    margin-bottom: 5%;
+}
+.principale{
+    background-color: rgb(225, 225, 225);
+}
+span{
+    padding-left: 70px;
+}
